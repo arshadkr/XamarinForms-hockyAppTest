@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:HKTestapp" 
+             x:Class="HKTestapp.MainPage">
+    <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+        <!-- Place new controls here -->
+        <Button Text="Track" 
+                HorizontalOptions="Center" 
+                VerticalOptions="Center" 
+                Clicked="Clicked_TrackMe"/>
+        <Button Text="Crash" 
+                HorizontalOptions="Center" 
+                VerticalOptions="Center" 
+                Clicked="Clicked_CrashMe"/>
+    
+    </StackLayout>
+</ContentPage>
